@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小许同学 | 个人主页</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="nav">
+        <div class="container">
+            <a href="#home" class="logo">小许同学</a>
+            <div class="nav-menu">
+                <a href="#home">首页</a>
+                <a href="#about">关于</a>
+                <a href="#skill">技能</a>
+                <a href="#hobby">爱好</a>
+                <a href="#contact">联系</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首屏Hero -->
+    <section class="home" id="home">
+        <div class="container home-wrap">
+            <div class="avatar">
+                <img src="http://q.qlogo.cn/headimg_dl?dst_uin=1045967674&spec=640&img_type=jpg" alt="头像">
+            </div>
+            <div class="home-text">
+                <h1>你好，我是 <span>小许</span></h1>
+                <div class="tag-group">
+                    <span class="tag">热爱前端</span>
+                    <span class="tag">游戏爱好者</span>
+                    <span class="tag">喜欢没事就睡觉</span>
+                </div>
+                <p>歪比巴布，巴巴博弈</p>
+            </div>
+            <!-- 新增数据统计板块 -->
+            <div class="stat-box">
+                <div class="stat-item">
+                    <h3>1年</h3>
+                    <p>页面设计</p>
+                </div>
+                <div class="stat-item">
+                    <h3>0</h3>
+                    <p>开发项目</p>
+                </div>
+                <div class="stat-item">
+                    <h3>∞</h3>
+                    <p>持续热爱</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="title">关于我</h2>
+            <p class="about-text">
+                一名追求视觉舒适的爱好者，日常闲暇会自主编写静态页面，拒绝繁杂花哨的冗余元素。休息时会沉浸射击类游戏，喜欢战术思考与团队配合。性格安静温和，乐于分享自己的作品，所有原创项目都会同步至GitHub，欢迎同好交流探讨。
+            </p>
+        </div>
+    </section>
+
+    <!-- 新增技能板块 -->
+    <section class="skill" id="skill">
+        <div class="container">
+            <h2 class="title">擅长技能</h2>
+            <div class="skill-list">
+                <div class="skill-card">HTML / CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">静态页面搭建</div>
+                <div class="skill-card">UI简约排版</div>
+                <div class="skill-card">幻想拯救世界</div>
+                <div class="skill-card">睡美美的觉</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 游戏爱好 -->
+    <section class="hobby" id="hobby">
+        <div class="container">
+            <h2 class="title">常驻游戏</h2>
+            <div class="hobby-list">
+                <div class="hobby-card">
+                    <h3>暗区突围</h3>
+                    <p>近期可能，这个游戏风水可能有问题</p>
+                </div>
+                <div class="hobby-card">
+                    <h3>无畏契约</h3>
+                    <p>300小时的黑铁III强的不止半点</p>
+                </div>
+                <div class="hobby-card">
+                    <h3>我的世界</h3>
+                    <p>最好玩的游戏之一，饥荒也是</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 社交渠道 -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="title">联系渠道</h2>
+            <div class="contact-list">
+                <a href="#" class="contact-card">GitHub</a>
+                <a href="#" class="contact-card">抖音</a>
+                <a href="#" class="contact-card">邮箱</a>
+            </div>
+            <p class="contact-tip">有作品交流、游戏组队、日常闲聊都可以来找我</p>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>© 2026 小许同学 · 以热爱抵御平庸</p>
+		<canvas id="sakuraCanvas"></canvas>
+    </footer>
+
+    <!-- 点击星光画布 -->
+    <canvas id="starCanvas"></canvas>
+    <script src="./js/main.js"></script>
+</body>
+</html>
